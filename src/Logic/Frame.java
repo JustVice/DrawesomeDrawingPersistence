@@ -18,6 +18,7 @@ public class Frame extends javax.swing.JFrame {
     }
 
     private void settings() {
+        setIconImage(Static.getIconImage());
         setLocationRelativeTo(null);
         this.setVisible(true);
         this.setResizable(false);
