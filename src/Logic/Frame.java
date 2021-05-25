@@ -120,14 +120,14 @@ public class Frame extends javax.swing.JFrame {
 
         jLabel3.setFont(new java.awt.Font("Bernard MT Condensed", 0, 18)); // NOI18N
         jLabel3.setForeground(new java.awt.Color(255, 0, 255));
-        jLabel3.setText("Made by Just Vice");
+        jLabel3.setText("Made by SPLIT VICE");
         jPanel2.add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 90, -1, -1));
 
         img.setIcon(new javax.swing.ImageIcon(getClass().getResource("/IMG/jv.png"))); // NOI18N
         jPanel2.add(img, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, -1, -1));
 
         jLabel4.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
-        jLabel4.setText("<html><a href=\"http://www.google.com\">View social/contact web pages</a></html>");
+        jLabel4.setText("<html><a href=\\\"http://www.google.com\\\">VICE's website</a></html>");
         jLabel4.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 jLabel4MouseClicked(evt);
@@ -179,7 +179,7 @@ public class Frame extends javax.swing.JFrame {
     private void jLabel4MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel4MouseClicked
         if (Desktop.isDesktopSupported()) {
             try {
-                Desktop.getDesktop().browse(new URI("https://justvice.wixsite.com/info"));
+                Desktop.getDesktop().browse(new URI("http://split-vice.com"));
             } catch (IOException | URISyntaxException ex) {
                 Logger.getLogger(Frame.class.getName()).log(Level.SEVERE, null, ex);
             }
